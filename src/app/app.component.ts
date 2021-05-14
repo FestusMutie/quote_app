@@ -13,6 +13,8 @@ export class AppComponent {
     {id:4,name:'Life is what happens when you are busy making other plans.'},
     {id:5,name:'Do what you can, with what you have, where you are.'},
     {id:6,name:'Be yourself; everyone else is already taken.'},
+    {id:7,name:'If you cannot do great things, do small things in a great way.'},
+    {id:8,name:'Strive not to be a success, but rather to be of value.'},
   ];
   
 }
