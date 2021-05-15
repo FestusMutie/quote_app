@@ -1,11 +1,11 @@
 <div>
-    <h1>MY QUOTES</h1>
-    
+    <h1>My Quotes</h1>
     <hr>
     <ul>
-        <li *ngFor='let quote of quotes'>
-          {{quote.name}}
-        </li>
+      <li *ngFor='let quote of quotes'>
+        {{quote.name}}
+        <app-quote-detail [quote]='quote'></app-quote-detail>
+      </li>
     </ul>
-    <p *ngIf='quotes.length > 10'>This quote has the highest upvotes</p>
   </div>
+  
