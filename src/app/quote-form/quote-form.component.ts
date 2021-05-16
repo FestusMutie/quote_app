@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuoteFormComponent implements OnInit {
 
+  newQuote = new Quote(0,"","",new Date());
   constructor() { }
+
+
 
   ngOnInit(): void {
   }
