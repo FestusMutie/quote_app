@@ -8,21 +8,30 @@ import { Quote } from '../quote';
 })
 export class QuoteDetailComponent implements OnInit {
 
-  @Input() quote: Quote;
   @Output() isComplete = new EventEmitter<boolean>();
-  quoteComplete(complete:boolean){
-    this.isComplete.emit(complete);
+
+  @Input() quote: Quote;
+  @Output() isRead = new EventEmitter<boolean>();
+  deleteQuote(read:boolean){
+    this.isRead.emit(read);
+  }
+  upvote(){
+    this.quote.upvote+=1;
+  }
+  downvote(){
+    this.quote.downvote+=1;
   }
   
   quoteDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
-  @Input() quotes: Quote;
-  constructor() { }
-
-  ngOnInit() {
-  }
+constructor(){}
+ngOnInit(){
+  
+}
 
 }
+
+
 
 
