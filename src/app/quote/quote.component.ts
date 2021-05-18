@@ -9,12 +9,12 @@ export class QuoteComponent implements OnInit {
   title = "quote";
   
   quotes: Quote[] = [
-    new Quote(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son', 'Author Festus', new Date(2020,3,14),0,0),
-    new Quote(2,'Buy Cookies','I have to buy cookies for the parrot','Author Festus',new Date(2019,6,9),0,0),
-    new Quote(3,'Get new Phone Case','Diana has her birthday coming up soon','Author Festus',new Date(2019,6,9),0,0),
-    new Quote(4,'Get Dog Food','Pupper likes expensive snacks','Author Festus', new Date(2019,6,9),0,0),
-    new Quote(5,'Solve math homework','Damn Math','Author Festus', new Date(2019,6,9),0,0),
-    new Quote(6,'Plot my world domination plan','Cause I am an evil overlord','Author Festus',new Date(2019,6,9),0,0),
+    new Quote(1, 'Quotes about technology', 'We have to stop optimizing for programmers,and start optimizing for users', 'Author Festus', new Date(2020,3,14),0,0),
+    new Quote(2,'Quotes about love','You always gain by giving love','Author Reese Witherspoon',new Date(2019,6,9),0,0),
+    new Quote(3,'Quotes about life','The purpose of life is to be happy','Author Delai Lama',new Date(2019,6,9),0,0),
+    new Quote(4,'Quotes about education','Education is not preparation for life,education is life itself','Author John Dhewey', new Date(2019,6,9),0,0),
+    new Quote(5,'Quotes about wealth','The real measure of wealth is how much we would be worth if we lost all our money','Author John Henry', new Date(2019,6,9),0,0),
+    new Quote(6,'Quotes about family','Home is where you are loved the most and act the worst','Author Majorie Pay',new Date(2019,6,9),0,0),
   ];
 
   toggleDetails(index){
