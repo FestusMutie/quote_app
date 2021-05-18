@@ -1,6 +1,7 @@
 ### Quote app
 ## by Festus Mutie, 2021.
-
+## Description
+This is an application that was build using angular framework.Basically,this app allows the user to view ,upvote, and downvote quotes posted by other users.Additionally, one can post their favorite quotes and they will be automatically added to the list of quotes for others to view.
 
 
 # Quote
