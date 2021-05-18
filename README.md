@@ -1,3 +1,8 @@
+### Quote app
+## by Festus Mutie, 2021.
+
+
+
 # Quote
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
