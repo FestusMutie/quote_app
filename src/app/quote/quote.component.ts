@@ -9,12 +9,12 @@ export class QuoteComponent implements OnInit {
   title = "quote";
   
   quotes: Quote[] = [
-    new Quote(1, 'Quotes about technology', 'We have to stop optimizing for programmers,and start optimizing for users', 'Author Festus', new Date(2020,3,14),0,0),
-    new Quote(2,'Quotes about love','You always gain by giving love','Author Reese Witherspoon',new Date(2019,6,9),0,0),
-    new Quote(3,'Quotes about life','The purpose of life is to be happy','Author Delai Lama',new Date(2019,6,9),0,0),
-    new Quote(4,'Quotes about education','Education is not preparation for life,education is life itself','Author John Dhewey', new Date(2019,6,9),0,0),
-    new Quote(5,'Quotes about wealth','The real measure of wealth is how much we would be worth if we lost all our money','Author John Henry', new Date(2019,6,9),0,0),
-    new Quote(6,'Quotes about family','Home is where you are loved the most and act the worst','Author Majorie Pay',new Date(2019,6,9),0,0),
+    new Quote(1, 'Fred Kamau', 'We have to stop optimizing for programmers,and start optimizing for users', ' Guru the programmer', new Date(2020,3,14),0,0),
+    new Quote(2,'Festus Mutie','You always gain by giving love',' Reese Witherspoon',new Date(2019,6,9),0,0),
+    new Quote(3,'Alice Kim','The purpose of life is to be happy',' Delai Lama',new Date(2019,6,9),0,0),
+    new Quote(4,'Milka Mukiri','Education is not preparation for life,education is life itself',' John Dhewey', new Date(2019,6,9),0,0),
+    new Quote(5,'Caro Mwangi','The real measure of wealth is how much we would be worth if we lost all our money',' John Henry', new Date(2019,6,9),0,0),
+    new Quote(6,'Gerald Wake','Home is where you are loved the most and act the worst','Majorie Pay',new Date(2019,6,9),0,0),
   ];
 
   toggleDetails(index){
